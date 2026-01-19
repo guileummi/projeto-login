@@ -1,8 +1,54 @@
 @charset 'UTF-8';
-
 /* Paleta de cores
     1- roxo: #241247
     2- roxoclarinho: #8854F0
     3- rosaEscuro: #9A66C5
 */
+
+/*Versão mobile*/
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: #241247;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+    background-color: white;
+    height: 500px;
+    width: 250px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+}
+
+section#login > div#imagem {
+    display: block;
+    background-color: #241247;
+    background-image: url('../imagens/tela1.jpg');
+    background-size: cover;
+    height: 200px;
+}
+
+section#login > div#formulario {
+    display: block;
+    padding: 10px;
+}
 
