@@ -26,6 +26,17 @@
         float: right;
         width: 70%;
     }
+
+    /*
+    form > div.campo {
+    background-color: white;
+    color: #9A66C5;
+    border: 1px solid #241247;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+    }
+    */   
 }
 
 @media screen and (min-width: 992px) {
@@ -39,7 +50,7 @@
 
     section#login > div#imagem {
         float: right;
-        width: 25%;
+        width: 50%;
         height: 100%;
     }
 
@@ -47,4 +58,21 @@
         float: left;
         width: 50%;
     }
+
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+
+    div#formulario > p {
+    font-size: 1.2em;
+    }
+
+    /*form > div.campo {
+    background-color: white;
+    color: #9A66C5;
+    border: 1px solid #241247;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+    }*/ 
 }

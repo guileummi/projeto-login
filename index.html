@@ -18,8 +18,17 @@
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e fazer as configurações no seu ambiente</p>
-                <form action="login.php" method="post">
-
+                <form action="login.php" method="post" autocomplete="on">
+                    <div class="campo">
+                        <label for="imail">E-mail</label>
+                        <input type="email" name="nome" id="imail" placeholder="seu E-mail" maxlength="20" required>
+                    </div>
+                    <div class="campo">
+                        <label for="isen">Senha</label>
+                        <input type="password" name="sen" id="isen" placeholder="sua senha" minlength="5" maxlength="15" required>
+                    </div>
+                    <input type="submit" value="Entrar">
+                    <a href="esqueci.html" class="botao">esqueci a senha</a>
                 </form>
             </div>
 
