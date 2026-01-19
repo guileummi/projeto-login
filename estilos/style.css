@@ -87,7 +87,7 @@ form > input[type=submit] {
 }
 
 div.campo > input {
-    background-color: red;
+    background-color: #241247;
     font-size: 1em;
     width: calc(100% - 44px);
     height: 100%;
