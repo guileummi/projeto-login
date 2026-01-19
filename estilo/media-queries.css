@@ -27,7 +27,6 @@
         width: 70%;
     }
 
-    /*
     form > div.campo {
     background-color: white;
     color: #9A66C5;
@@ -35,8 +34,16 @@
     height: 40px;
     border-radius: 5px;
     margin: 5px 0px;
-    }
-    */   
+    }  
+
+    div.campo > input {
+    background-color: white;
+    font-size: 1em;
+    height: 100%;
+    width: 88%;
+    border: 0px;
+    border-radius: 8px;
+}
 }
 
 @media screen and (min-width: 992px) {
@@ -67,12 +74,21 @@
     font-size: 1.2em;
     }
 
-    /*form > div.campo {
+    form > div.campo {
     background-color: white;
     color: #9A66C5;
     border: 1px solid #241247;
     height: 40px;
     border-radius: 5px;
     margin: 5px 0px;
-    }*/ 
+    } 
+
+    div.campo > input {
+    background-color: white;
+    font-size: 1em;
+    height: 100%;
+    width: 88%;
+    border: 0px;
+    border-radius: 8px;
+}
 }
