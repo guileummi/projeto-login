@@ -1,2 +1,2 @@
 # projeto-login
-Projeto tela de login
+Curso de HTML5 e CSS3 com professor Guanabara
